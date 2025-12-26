@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resource List Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <header>
+      <h1>Resources Explorer — Array Methods Demo</h1>
+      <div id="stats" class="stats"></div>
+    </header>
+
+    <section class="controls">
+      <select id="categorySelect">
+        <option value="all">All Categories</option>
+        <option value="JavaScript">JavaScript</option>
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="Frontend">Frontend</option>
+        <option value="Backend">Backend</option>
+      </select>
+
+      <input id="searchInput" type="text" placeholder="Find by title" />
+      <button id="logBtn">Log with forEach</button>
+    </section>
+
+    <section class="controls">
+      <button id="filterBtn">Filter</button>
+      <button id="resetBtn">Reset</button>
+      <button id="findBtn">Find</button>
+    </section>
+
+    <section id="list" class="list"></section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
